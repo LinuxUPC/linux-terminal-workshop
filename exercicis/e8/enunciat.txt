@@ -1,0 +1,12 @@
+Usant el curl:
+Curl serveix per "demanar" un web.
+Per exemple si provem:
+curl google.com
+Si sabeu algo d'html veureu basicament que es el codi de la pagina.
+
+Donada la seguent comanda:
+curl dict://dict.org/d:bash
+Descobriu com obtenir la definicio de la paraula "erinaceous" usant la comanda curl.
+
+
+

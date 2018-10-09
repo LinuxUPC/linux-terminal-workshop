@@ -1,0 +1,6 @@
+Problema del arbre de directoris. 
+En Miquel te una carpeta laboratoris, on te el exercici numero 42. Volem que feu un simbolic link a la carpeta exercicis d'en Joan.
+
+Aquest exercici s'ha de fer sencer des de la carpeta e2.
+
+Per aquest exercici necesitareu executar la comanda pwd per donar el path absolut, ja que elslinks simbolics necesiten el path absolut.

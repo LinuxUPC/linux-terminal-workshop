@@ -1,0 +1,2 @@
+El ficher que falta.
+En Pere esta molt aburrit i ha creat una llista de fichers seguint una sequencia numerica a la carpeta random. Mireu quin es el numero que falta a la sequencia i creeu un ficher amb el numero que falta.

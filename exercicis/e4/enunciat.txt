@@ -1,0 +1,4 @@
+En Josep Maria estava fent coses marranes al directori coses marranes, just quan ha entrat la seva mare. Ajuda a en Josep Maria esborrantli el directori coses marranes.
+
+Solucioneu aquest exercici amb nomes una comanda. Consulteu el manual de rm (man rm) per descobrir com. Sino busqueu a internet o pregunteu al profesor.
+
