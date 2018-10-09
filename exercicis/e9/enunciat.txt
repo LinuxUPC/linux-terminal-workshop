@@ -1,0 +1,3 @@
+Els permisos desapareguts.
+Shan perdut els permisos dels fichers!! Dona permisos de execucio a epic.sh per veure algo divertit.
+
