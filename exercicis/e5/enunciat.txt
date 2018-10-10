@@ -1,0 +1,3 @@
+Repte: Imprimir totes les cares felices del ficher asdad.txt.
+
+Per a comprovar el resultat escriu ./comprovar.sh "la teva comanda"

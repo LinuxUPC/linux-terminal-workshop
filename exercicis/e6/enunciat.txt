@@ -1,0 +1,3 @@
+Diversio amb procesos!
+
+Executa la comanda ./run.sh per iniciar el exercici. Les instruccions se't donaran un cop executis la comanda.

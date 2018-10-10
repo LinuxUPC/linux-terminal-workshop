@@ -1,0 +1,3 @@
+En aquest primer exercici volem que accediu al ficher README.md que esta localitzat a 2 carpetes amunt.
+
+Utilitzeu cat per volcar el contigut del ficher.
