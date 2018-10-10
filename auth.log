@@ -1,0 +1,392 @@
+Oct  7 09:50:03 asus-switch sudo: alejandro : TTY=pts/8 ; PWD=/home/alejandro ; USER=root ; COMMAND=/usr/sbin/preload
+Oct  7 09:50:03 asus-switch sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct  7 09:50:03 asus-switch sudo: pam_unix(sudo:session): session closed for user root
+Oct  7 09:51:14 asus-switch sudo: alejandro : TTY=pts/8 ; PWD=/home/alejandro ; USER=root ; COMMAND=/bin/cat /etc/preload.conf
+Oct  7 09:51:14 asus-switch sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct  7 09:51:14 asus-switch sudo: pam_unix(sudo:session): session closed for user root
+Oct  7 09:52:09 asus-switch polkitd(authority=local): Unregistered Authentication Agent for unix-session:c2 (system bus name :1.78, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Oct  7 09:52:10 asus-switch systemd-logind[1017]: System is rebooting.
+Oct  7 09:52:42 asus-switch systemd-logind[1021]: New seat seat0.
+Oct  7 09:52:42 asus-switch systemd-logind[1021]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct  7 09:52:42 asus-switch systemd-logind[1021]: Watching system buttons on /dev/input/event0 (Power Button)
+Oct  7 09:52:42 asus-switch systemd-logind[1021]: Watching system buttons on /dev/input/event13 (Eee PC WMI hotkeys)
+Oct  7 09:52:48 asus-switch sshd[1173]: Server listening on 0.0.0.0 port 22.
+Oct  7 09:52:48 asus-switch sshd[1173]: Server listening on :: port 22.
+Oct  7 09:52:51 asus-switch lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Oct  7 09:52:51 asus-switch lightdm: PAM adding faulty module: pam_kwallet.so
+Oct  7 09:52:51 asus-switch lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Oct  7 09:52:51 asus-switch lightdm: PAM adding faulty module: pam_kwallet5.so
+Oct  7 09:52:52 asus-switch sshd[1173]: Received SIGHUP; restarting.
+Oct  7 09:52:52 asus-switch sshd[1173]: Server listening on 0.0.0.0 port 22.
+Oct  7 09:52:52 asus-switch sshd[1173]: Server listening on :: port 22.
+Oct  7 09:52:52 asus-switch lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Oct  7 09:52:52 asus-switch systemd-logind[1021]: New session c1 of user lightdm.
+Oct  7 09:52:52 asus-switch systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Oct  7 09:52:55 asus-switch lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Oct  7 09:52:55 asus-switch lightdm: PAM adding faulty module: pam_kwallet.so
+Oct  7 09:52:55 asus-switch lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Oct  7 09:52:55 asus-switch lightdm: PAM adding faulty module: pam_kwallet5.so
+Oct  7 09:52:55 asus-switch lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "alejandro"
+Oct  7 09:53:06 asus-switch lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Oct  7 09:53:06 asus-switch lightdm: pam_unix(lightdm:session): session opened for user alejandro by (uid=0)
+Oct  7 09:53:06 asus-switch systemd-logind[1021]: New session c2 of user alejandro.
+Oct  7 09:53:06 asus-switch systemd: pam_unix(systemd-user:session): session opened for user alejandro by (uid=0)
+Oct  7 09:53:15 asus-switch gnome-keyring-daemon[1830]: The SSH agent was already initialized
+Oct  7 09:53:15 asus-switch gnome-keyring-daemon[1830]: The PKCS#11 component was already initialized
+Oct  7 09:53:15 asus-switch gnome-keyring-daemon[1830]: The Secret Service was already initialized
+Oct  7 09:53:18 asus-switch polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.76 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct  7 09:54:53 asus-switch systemd-logind[1021]: Removed session c1.
+Oct  7 09:54:53 asus-switch systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Oct  7 10:00:01 asus-switch CRON[6395]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  7 10:00:01 asus-switch CRON[6395]: pam_unix(cron:session): session closed for user root
+Oct  7 10:17:01 asus-switch CRON[12906]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  7 10:17:01 asus-switch CRON[12906]: pam_unix(cron:session): session closed for user root
+Oct  7 10:27:15 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.101" (uid=1000 pid=16229 comm="evince /home/alejandro/MEGAsync/udacity/ANN/blog_b")
+Oct  7 10:31:57 asus-switch dbus[977]: message repeated 3 times: [ [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.101" (uid=1000 pid=16229 comm="evince /home/alejandro/MEGAsync/udacity/ANN/blog_b")]
+Oct  7 10:36:15 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.107" (uid=1000 pid=17680 comm="evince /home/alejandro/MEGAsync/udacity/ANN/WaveNe")
+Oct  7 10:38:32 asus-switch dbus[977]: message repeated 3 times: [ [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.107" (uid=1000 pid=17680 comm="evince /home/alejandro/MEGAsync/udacity/ANN/WaveNe")]
+Oct  7 10:40:55 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.110" (uid=1000 pid=19160 comm="evince /home/alejandro/MEGAsync/udacity/ANN/WaveNe")
+Oct  7 10:43:14 asus-switch dbus[977]: message repeated 3 times: [ [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.110" (uid=1000 pid=19160 comm="evince /home/alejandro/MEGAsync/udacity/ANN/WaveNe")]
+Oct  7 10:44:54 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.113" (uid=1000 pid=3640 comm="/usr/lib/firefox/firefox ")
+Oct  7 10:44:54 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.113" (uid=1000 pid=3640 comm="/usr/lib/firefox/firefox ")
+Oct  7 10:45:27 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.115" (uid=1000 pid=20780 comm="evince /home/alejandro/MEGAsync/udacity/ANN/TEst_C")
+Oct  7 10:45:27 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.115" (uid=1000 pid=20780 comm="evince /home/alejandro/MEGAsync/udacity/ANN/TEst_C")
+Oct  7 10:45:34 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.115" (uid=1000 pid=20780 comm="evince /home/alejandro/MEGAsync/udacity/ANN/TEst_C")
+Oct  7 10:45:34 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.115" (uid=1000 pid=20780 comm="evince /home/alejandro/MEGAsync/udacity/ANN/TEst_C")
+Oct  7 10:50:14 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.115" (uid=1000 pid=20780 comm="evince /home/alejandro/MEGAsync/udacity/ANN/TEst_C")
+Oct  7 10:50:14 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.115" (uid=1000 pid=20780 comm="evince /home/alejandro/MEGAsync/udacity/ANN/TEst_C")
+Oct  7 10:54:50 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.119" (uid=1000 pid=23791 comm="evince /home/alejandro/MEGAsync/udacity/ANN/Transl")
+Oct  7 10:58:11 asus-switch dbus[977]: message repeated 3 times: [ [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.119" (uid=1000 pid=23791 comm="evince /home/alejandro/MEGAsync/udacity/ANN/Transl")]
+Oct  7 11:00:01 asus-switch CRON[25480]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  7 11:00:01 asus-switch CRON[25480]: pam_unix(cron:session): session closed for user root
+Oct  7 11:05:43 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.122" (uid=1000 pid=27441 comm="evince /home/alejandro/MEGAsync/udacity/ANN/Transl")
+Oct  7 11:10:54 asus-switch dbus[977]: message repeated 3 times: [ [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.122" (uid=1000 pid=27441 comm="evince /home/alejandro/MEGAsync/udacity/ANN/Transl")]
+Oct  7 11:16:18 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.126" (uid=1000 pid=30756 comm="evince /home/alejandro/MEGAsync/udacity/ANN/DQNNat")
+Oct  7 11:16:18 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.126" (uid=1000 pid=30756 comm="evince /home/alejandro/MEGAsync/udacity/ANN/DQNNat")
+Oct  7 11:17:01 asus-switch CRON[30981]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  7 11:17:01 asus-switch CRON[30981]: pam_unix(cron:session): session closed for user root
+Oct  7 11:19:36 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.126" (uid=1000 pid=30756 comm="evince /home/alejandro/MEGAsync/udacity/ANN/DQNNat")
+Oct  7 11:19:36 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.126" (uid=1000 pid=30756 comm="evince /home/alejandro/MEGAsync/udacity/ANN/DQNNat")
+Oct  7 11:22:37 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.113" (uid=1000 pid=3640 comm="/usr/lib/firefox/firefox ")
+Oct  7 11:22:37 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.113" (uid=1000 pid=3640 comm="/usr/lib/firefox/firefox ")
+Oct  7 11:25:03 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.113" (uid=1000 pid=3640 comm="/usr/lib/firefox/firefox ")
+Oct  7 11:25:03 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.113" (uid=1000 pid=3640 comm="/usr/lib/firefox/firefox ")
+Oct  7 11:25:30 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.132" (uid=1000 pid=1254 comm="evince /home/alejandro/MEGAsync/udacity/ANN/applic")
+Oct  7 11:37:59 asus-switch dbus[977]: message repeated 5 times: [ [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.132" (uid=1000 pid=1254 comm="evince /home/alejandro/MEGAsync/udacity/ANN/applic")]
+Oct  7 11:49:01 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.138" (uid=1000 pid=9557 comm="evince /home/alejandro/MEGAsync/udacity/ANN/applic")
+Oct  7 11:53:53 asus-switch dbus[977]: message repeated 3 times: [ [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.138" (uid=1000 pid=9557 comm="evince /home/alejandro/MEGAsync/udacity/ANN/applic")]
+Oct  7 12:00:01 asus-switch CRON[12844]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  7 12:00:01 asus-switch CRON[12845]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  7 12:00:01 asus-switch CRON[12845]: pam_unix(cron:session): session closed for user root
+Oct  7 12:00:01 asus-switch CRON[12844]: pam_unix(cron:session): session closed for user root
+Oct  7 12:00:49 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.113" (uid=1000 pid=3640 comm="/usr/lib/firefox/firefox ")
+Oct  7 12:00:49 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.113" (uid=1000 pid=3640 comm="/usr/lib/firefox/firefox ")
+Oct  7 12:01:43 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.138" (uid=1000 pid=9557 comm="evince /home/alejandro/MEGAsync/udacity/ANN/applic")
+Oct  7 12:01:43 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.138" (uid=1000 pid=9557 comm="evince /home/alejandro/MEGAsync/udacity/ANN/applic")
+Oct  7 12:01:50 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.142" (uid=1000 pid=13547 comm="evince /home/alejandro/MEGAsync/udacity/ANN/Checkp")
+Oct  7 12:03:10 asus-switch dbus[977]: message repeated 3 times: [ [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.142" (uid=1000 pid=13547 comm="evince /home/alejandro/MEGAsync/udacity/ANN/Checkp")]
+Oct  7 12:03:28 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.138" (uid=1000 pid=9557 comm="evince /home/alejandro/MEGAsync/udacity/ANN/applic")
+Oct  7 12:03:28 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.138" (uid=1000 pid=9557 comm="evince /home/alejandro/MEGAsync/udacity/ANN/applic")
+Oct  7 12:17:01 asus-switch CRON[18226]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  7 12:17:01 asus-switch CRON[18226]: pam_unix(cron:session): session closed for user root
+Oct  7 13:00:01 asus-switch CRON[31756]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  7 13:00:02 asus-switch CRON[31756]: pam_unix(cron:session): session closed for user root
+Oct  7 13:17:01 asus-switch CRON[5157]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  7 13:17:01 asus-switch CRON[5157]: pam_unix(cron:session): session closed for user root
+Oct  7 13:20:00 asus-switch compiz: gkr-pam: unlocked login keyring
+Oct  7 13:20:03 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.138" (uid=1000 pid=9557 comm="evince /home/alejandro/MEGAsync/udacity/ANN/applic")
+Oct  7 13:20:03 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.138" (uid=1000 pid=9557 comm="evince /home/alejandro/MEGAsync/udacity/ANN/applic")
+Oct  7 13:33:22 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.148" (uid=1000 pid=10211 comm="evince /home/alejandro/MEGAsync/udacity/ANN/applic")
+Oct  7 13:33:22 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.148" (uid=1000 pid=10211 comm="evince /home/alejandro/MEGAsync/udacity/ANN/applic")
+Oct  7 13:38:34 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.113" (uid=1000 pid=3640 comm="/usr/lib/firefox/firefox ")
+Oct  7 13:38:34 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.113" (uid=1000 pid=3640 comm="/usr/lib/firefox/firefox ")
+Oct  7 13:38:51 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.113" (uid=1000 pid=3640 comm="/usr/lib/firefox/firefox ")
+Oct  7 13:38:51 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.113" (uid=1000 pid=3640 comm="/usr/lib/firefox/firefox ")
+Oct  7 13:39:32 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.148" (uid=1000 pid=10211 comm="evince /home/alejandro/MEGAsync/udacity/ANN/applic")
+Oct  7 13:39:32 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.148" (uid=1000 pid=10211 comm="evince /home/alejandro/MEGAsync/udacity/ANN/applic")
+Oct  7 13:40:37 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.152" (uid=1000 pid=12189 comm="evince /home/alejandro/MEGAsync/udacity/ANN/Gridse")
+Oct  7 13:43:45 asus-switch dbus[977]: message repeated 3 times: [ [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.152" (uid=1000 pid=12189 comm="evince /home/alejandro/MEGAsync/udacity/ANN/Gridse")]
+Oct  7 14:00:01 asus-switch CRON[18484]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  7 14:00:01 asus-switch CRON[18484]: pam_unix(cron:session): session closed for user root
+Oct  7 14:17:01 asus-switch CRON[24015]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  7 14:17:01 asus-switch CRON[24015]: pam_unix(cron:session): session closed for user root
+Oct  7 14:28:37 asus-switch compiz: gkr-pam: unlocked login keyring
+Oct  7 14:51:34 asus-switch systemd-logind[1021]: Operation 'sleep' finished.
+Oct  7 14:51:37 asus-switch sshd[1173]: Received SIGHUP; restarting.
+Oct  7 14:51:37 asus-switch sshd[1173]: Server listening on 0.0.0.0 port 22.
+Oct  7 14:51:37 asus-switch sshd[1173]: Server listening on :: port 22.
+Oct  7 14:51:37 asus-switch sshd[1173]: Received SIGHUP; restarting.
+Oct  7 14:51:37 asus-switch sshd[1173]: Server listening on 0.0.0.0 port 22.
+Oct  7 14:51:37 asus-switch sshd[1173]: Server listening on :: port 22.
+Oct  7 14:51:39 asus-switch compiz: gkr-pam: unlocked login keyring
+Oct  7 15:00:01 asus-switch CRON[5950]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  7 15:00:01 asus-switch CRON[5950]: pam_unix(cron:session): session closed for user root
+Oct  7 15:17:01 asus-switch CRON[10791]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  7 15:17:01 asus-switch CRON[10791]: pam_unix(cron:session): session closed for user root
+Oct  7 16:00:01 asus-switch CRON[22500]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  7 16:00:13 asus-switch CRON[22500]: pam_unix(cron:session): session closed for user root
+Oct  7 19:46:17 asus-switch systemd-logind[1021]: Operation 'sleep' finished.
+Oct  7 19:46:20 asus-switch sshd[1173]: Received SIGHUP; restarting.
+Oct  7 19:46:20 asus-switch sshd[1173]: Server listening on 0.0.0.0 port 22.
+Oct  7 19:46:20 asus-switch sshd[1173]: Server listening on :: port 22.
+Oct  7 19:46:20 asus-switch sshd[1173]: Received SIGHUP; restarting.
+Oct  7 19:46:20 asus-switch sshd[1173]: Server listening on 0.0.0.0 port 22.
+Oct  7 19:46:20 asus-switch sshd[1173]: Server listening on :: port 22.
+Oct  7 19:47:46 asus-switch compiz: gkr-pam: unlocked login keyring
+Oct  7 20:00:01 asus-switch CRON[31944]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  7 20:00:01 asus-switch CRON[31944]: pam_unix(cron:session): session closed for user root
+Oct  7 20:03:14 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.113" (uid=1000 pid=3640 comm="/usr/lib/firefox/firefox ")
+Oct  7 20:03:14 asus-switch dbus[977]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.1" (uid=111 pid=961 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.113" (uid=1000 pid=3640 comm="/usr/lib/firefox/firefox ")
+Oct  7 22:02:15 asus-switch systemd-logind[1021]: Operation 'sleep' finished.
+Oct  7 22:02:19 asus-switch sshd[1173]: Received SIGHUP; restarting.
+Oct  7 22:02:19 asus-switch sshd[1173]: Server listening on 0.0.0.0 port 22.
+Oct  7 22:02:19 asus-switch sshd[1173]: Server listening on :: port 22.
+Oct  7 22:02:19 asus-switch sshd[1173]: Received SIGHUP; restarting.
+Oct  7 22:02:19 asus-switch sshd[1173]: Server listening on 0.0.0.0 port 22.
+Oct  7 22:02:19 asus-switch sshd[1173]: Server listening on :: port 22.
+Oct  7 22:02:23 asus-switch compiz: gkr-pam: unlocked login keyring
+Oct  7 22:02:29 asus-switch polkitd(authority=local): Unregistered Authentication Agent for unix-session:c2 (system bus name :1.76, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Oct  7 22:02:34 asus-switch systemd-logind[1021]: Delay lock is active (UID 1000/alejandro, PID 2152/gnome-session-b) but inhibitor timeout is reached.
+Oct  7 22:02:34 asus-switch systemd-logind[1021]: System is rebooting.
+Oct  9 13:49:58 asus-switch systemd-logind[964]: New seat seat0.
+Oct  9 13:49:58 asus-switch systemd-logind[964]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct  9 13:49:58 asus-switch systemd-logind[964]: Watching system buttons on /dev/input/event0 (Power Button)
+Oct  9 13:49:58 asus-switch systemd-logind[964]: Watching system buttons on /dev/input/event13 (Eee PC WMI hotkeys)
+Oct  9 13:50:03 asus-switch sshd[1182]: Server listening on 0.0.0.0 port 22.
+Oct  9 13:50:03 asus-switch sshd[1182]: Server listening on :: port 22.
+Oct  9 13:50:03 asus-switch lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Oct  9 13:50:03 asus-switch lightdm: PAM adding faulty module: pam_kwallet.so
+Oct  9 13:50:03 asus-switch lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Oct  9 13:50:03 asus-switch lightdm: PAM adding faulty module: pam_kwallet5.so
+Oct  9 13:50:03 asus-switch lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Oct  9 13:50:03 asus-switch systemd-logind[964]: New session c1 of user lightdm.
+Oct  9 13:50:03 asus-switch systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Oct  9 13:50:06 asus-switch lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Oct  9 13:50:06 asus-switch lightdm: PAM adding faulty module: pam_kwallet.so
+Oct  9 13:50:06 asus-switch lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Oct  9 13:50:06 asus-switch lightdm: PAM adding faulty module: pam_kwallet5.so
+Oct  9 13:50:06 asus-switch lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "alejandro"
+Oct  9 13:50:07 asus-switch sshd[1182]: Received SIGHUP; restarting.
+Oct  9 13:50:07 asus-switch sshd[1182]: Server listening on 0.0.0.0 port 22.
+Oct  9 13:50:07 asus-switch sshd[1182]: Server listening on :: port 22.
+Oct  9 13:50:08 asus-switch sshd[1182]: Received SIGHUP; restarting.
+Oct  9 13:50:08 asus-switch sshd[1182]: Server listening on 0.0.0.0 port 22.
+Oct  9 13:50:08 asus-switch sshd[1182]: Server listening on :: port 22.
+Oct  9 12:00:02 asus-switch CRON[28474]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  9 12:00:02 asus-switch CRON[28475]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  9 12:00:02 asus-switch CRON[28475]: pam_unix(cron:session): session closed for user root
+Oct  9 12:00:02 asus-switch CRON[28474]: pam_unix(cron:session): session closed for user root
+Oct  9 12:17:01 asus-switch CRON[7334]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  9 12:17:01 asus-switch CRON[7334]: pam_unix(cron:session): session closed for user root
+Oct  9 13:00:01 asus-switch CRON[19825]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  9 13:00:01 asus-switch CRON[19825]: pam_unix(cron:session): session closed for user root
+Oct  9 13:17:01 asus-switch CRON[30549]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  9 13:17:01 asus-switch CRON[30549]: pam_unix(cron:session): session closed for user root
+Oct  9 13:20:28 asus-switch lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Oct  9 13:20:28 asus-switch lightdm: pam_unix(lightdm:session): session opened for user alejandro by (uid=0)
+Oct  9 13:20:28 asus-switch systemd-logind[964]: New session c2 of user alejandro.
+Oct  9 13:20:28 asus-switch systemd: pam_unix(systemd-user:session): session opened for user alejandro by (uid=0)
+Oct  9 13:20:31 asus-switch gnome-keyring-daemon[6781]: The SSH agent was already initialized
+Oct  9 13:20:31 asus-switch gnome-keyring-daemon[6781]: The PKCS#11 component was already initialized
+Oct  9 13:20:31 asus-switch gnome-keyring-daemon[6781]: The Secret Service was already initialized
+Oct  9 13:20:35 asus-switch polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.92 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct  9 13:20:48 asus-switch systemd-logind[964]: Removed session c1.
+Oct  9 13:20:48 asus-switch systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Oct  9 13:21:38 asus-switch pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct  9 13:21:38 asus-switch pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Oct  9 13:21:38 asus-switch pkexec[10235]: alejandro: Executing command [USER=root] [TTY=unknown] [CWD=/home/alejandro] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct  9 13:21:59 asus-switch dbus[972]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.8" (uid=111 pid=995 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.106" (uid=1000 pid=11258 comm="evince /home/alejandro/UNI/q9/IO/lab/PR0/entrega/E")
+Oct  9 13:23:10 asus-switch dbus[972]: message repeated 3 times: [ [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.8" (uid=111 pid=995 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.106" (uid=1000 pid=11258 comm="evince /home/alejandro/UNI/q9/IO/lab/PR0/entrega/E")]
+Oct  9 13:24:37 asus-switch pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct  9 13:24:37 asus-switch pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Oct  9 13:24:37 asus-switch pkexec[13679]: alejandro: Executing command [USER=root] [TTY=unknown] [CWD=/home/alejandro] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct  9 13:26:28 asus-switch dbus[972]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.8" (uid=111 pid=995 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.114" (uid=1000 pid=8073 comm="/usr/lib/firefox/firefox ")
+Oct  9 13:26:28 asus-switch dbus[972]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.8" (uid=111 pid=995 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.114" (uid=1000 pid=8073 comm="/usr/lib/firefox/firefox ")
+Oct  9 13:27:10 asus-switch dbus[972]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.8" (uid=111 pid=995 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.106" (uid=1000 pid=11258 comm="evince /home/alejandro/UNI/q9/IO/lab/PR0/entrega/E")
+Oct  9 13:27:56 asus-switch dbus[972]: message repeated 3 times: [ [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.8" (uid=111 pid=995 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.106" (uid=1000 pid=11258 comm="evince /home/alejandro/UNI/q9/IO/lab/PR0/entrega/E")]
+Oct  9 13:28:19 asus-switch dbus[972]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.8" (uid=111 pid=995 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.118" (uid=1000 pid=16293 comm="gedit /home/alejandro/UNI/q9/IO/lab/PR0/entrega/b1")
+Oct  9 13:28:19 asus-switch dbus[972]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.8" (uid=111 pid=995 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.118" (uid=1000 pid=16293 comm="gedit /home/alejandro/UNI/q9/IO/lab/PR0/entrega/b1")
+Oct  9 13:28:29 asus-switch dbus[972]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.8" (uid=111 pid=995 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.119" (uid=1000 pid=16560 comm="gedit /home/alejandro/UNI/q9/IO/lab/PR0/entrega/b1")
+Oct  9 13:28:29 asus-switch dbus[972]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.8" (uid=111 pid=995 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.119" (uid=1000 pid=16560 comm="gedit /home/alejandro/UNI/q9/IO/lab/PR0/entrega/b1")
+Oct  9 13:29:00 asus-switch dbus[972]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.8" (uid=111 pid=995 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.121" (uid=1000 pid=17120 comm="gedit /home/alejandro/UNI/q9/IO/lab/PR0/entrega/b1")
+Oct  9 13:29:00 asus-switch dbus[972]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.8" (uid=111 pid=995 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.121" (uid=1000 pid=17120 comm="gedit /home/alejandro/UNI/q9/IO/lab/PR0/entrega/b1")
+Oct  9 13:29:15 asus-switch dbus[972]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.8" (uid=111 pid=995 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=17144 comm="gedit /home/alejandro/UNI/q9/IO/lab/PR0/entrega/b2")
+Oct  9 13:29:15 asus-switch dbus[972]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.8" (uid=111 pid=995 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=17144 comm="gedit /home/alejandro/UNI/q9/IO/lab/PR0/entrega/b2")
+Oct  9 13:29:52 asus-switch dbus[972]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.8" (uid=111 pid=995 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.124" (uid=1000 pid=17419 comm="gedit /home/alejandro/UNI/q9/IO/lab/PR0/entrega/b2")
+Oct  9 13:31:07 asus-switch dbus[972]: message repeated 7 times: [ [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.8" (uid=111 pid=995 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.124" (uid=1000 pid=17419 comm="gedit /home/alejandro/UNI/q9/IO/lab/PR0/entrega/b2")]
+Oct  9 13:31:19 asus-switch dbus[972]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.8" (uid=111 pid=995 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.127" (uid=1000 pid=19066 comm="gedit /home/alejandro/UNI/q9/IO/lab/PR0/entrega/b2")
+Oct  9 13:31:19 asus-switch dbus[972]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.8" (uid=111 pid=995 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.127" (uid=1000 pid=19066 comm="gedit /home/alejandro/UNI/q9/IO/lab/PR0/entrega/b2")
+Oct  9 13:31:41 asus-switch dbus[972]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.8" (uid=111 pid=995 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.129" (uid=1000 pid=19092 comm="gedit /home/alejandro/UNI/q9/IO/lab/PR0/entrega/c1")
+Oct  9 13:31:53 asus-switch dbus[972]: message repeated 3 times: [ [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.8" (uid=111 pid=995 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.129" (uid=1000 pid=19092 comm="gedit /home/alejandro/UNI/q9/IO/lab/PR0/entrega/c1")]
+Oct  9 13:33:06 asus-switch dbus[972]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.8" (uid=111 pid=995 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.132" (uid=1000 pid=20523 comm="gedit /home/alejandro/UNI/q9/IO/lab/PR0/entrega/b2")
+Oct  9 13:33:06 asus-switch dbus[972]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.8" (uid=111 pid=995 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.132" (uid=1000 pid=20523 comm="gedit /home/alejandro/UNI/q9/IO/lab/PR0/entrega/b2")
+Oct  9 13:33:30 asus-switch dbus[972]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.8" (uid=111 pid=995 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.134" (uid=1000 pid=20852 comm="gedit /home/alejandro/UNI/q9/IO/lab/PR0/entrega/c1")
+Oct  9 13:33:30 asus-switch dbus[972]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.8" (uid=111 pid=995 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.134" (uid=1000 pid=20852 comm="gedit /home/alejandro/UNI/q9/IO/lab/PR0/entrega/c1")
+Oct  9 13:33:56 asus-switch dbus[972]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.8" (uid=111 pid=995 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.136" (uid=1000 pid=21483 comm="gedit /home/alejandro/UNI/q9/IO/lab/PR0/entrega/c1")
+Oct  9 13:33:56 asus-switch dbus[972]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.8" (uid=111 pid=995 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.136" (uid=1000 pid=21483 comm="gedit /home/alejandro/UNI/q9/IO/lab/PR0/entrega/c1")
+Oct  9 13:35:51 asus-switch dbus[972]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.8" (uid=111 pid=995 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.138" (uid=1000 pid=22385 comm="evince /home/alejandro/Documents/IEEE/courses/linu")
+Oct  9 13:41:52 asus-switch dbus[972]: message repeated 3 times: [ [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.8" (uid=111 pid=995 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.138" (uid=1000 pid=22385 comm="evince /home/alejandro/Documents/IEEE/courses/linu")]
+Oct  9 13:47:26 asus-switch polkitd(authority=local): Unregistered Authentication Agent for unix-session:c2 (system bus name :1.92, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Oct  9 13:47:26 asus-switch systemd-logind[964]: System is powering down.
+Oct  9 13:54:10 asus-switch systemd-logind[1026]: New seat seat0.
+Oct  9 13:54:10 asus-switch systemd-logind[1026]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct  9 13:54:10 asus-switch systemd-logind[1026]: Watching system buttons on /dev/input/event0 (Power Button)
+Oct  9 13:54:10 asus-switch systemd-logind[1026]: Watching system buttons on /dev/input/event12 (Eee PC WMI hotkeys)
+Oct  9 13:54:11 asus-switch sshd[1190]: Server listening on 0.0.0.0 port 22.
+Oct  9 13:54:11 asus-switch sshd[1190]: Server listening on :: port 22.
+Oct  9 13:54:16 asus-switch lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Oct  9 13:54:16 asus-switch lightdm: PAM adding faulty module: pam_kwallet.so
+Oct  9 13:54:16 asus-switch lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Oct  9 13:54:16 asus-switch lightdm: PAM adding faulty module: pam_kwallet5.so
+Oct  9 13:54:16 asus-switch lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Oct  9 13:54:16 asus-switch systemd-logind[1026]: New session c1 of user lightdm.
+Oct  9 13:54:16 asus-switch systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Oct  9 13:54:17 asus-switch lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Oct  9 13:54:17 asus-switch lightdm: PAM adding faulty module: pam_kwallet.so
+Oct  9 13:54:17 asus-switch lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Oct  9 13:54:17 asus-switch lightdm: PAM adding faulty module: pam_kwallet5.so
+Oct  9 13:54:17 asus-switch lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "alejandro"
+Oct  9 13:54:19 asus-switch sshd[1190]: Received SIGHUP; restarting.
+Oct  9 13:54:19 asus-switch sshd[1190]: Server listening on 0.0.0.0 port 22.
+Oct  9 13:54:19 asus-switch sshd[1190]: Server listening on :: port 22.
+Oct  9 13:54:19 asus-switch sshd[1190]: Received SIGHUP; restarting.
+Oct  9 13:54:19 asus-switch sshd[1190]: Server listening on 0.0.0.0 port 22.
+Oct  9 13:54:19 asus-switch sshd[1190]: Server listening on :: port 22.
+Oct  9 13:54:26 asus-switch lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Oct  9 13:54:26 asus-switch lightdm: pam_unix(lightdm:session): session opened for user alejandro by (uid=0)
+Oct  9 13:54:26 asus-switch systemd-logind[1026]: New session c2 of user alejandro.
+Oct  9 13:54:26 asus-switch systemd: pam_unix(systemd-user:session): session opened for user alejandro by (uid=0)
+Oct  9 13:54:29 asus-switch gnome-keyring-daemon[2720]: The SSH agent was already initialized
+Oct  9 13:54:29 asus-switch gnome-keyring-daemon[2720]: The Secret Service was already initialized
+Oct  9 13:54:29 asus-switch gnome-keyring-daemon[2720]: The PKCS#11 component was already initialized
+Oct  9 13:54:33 asus-switch polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.83 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct  9 13:55:09 asus-switch dbus[1054]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.7" (uid=111 pid=1037 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.91" (uid=1000 pid=3334 comm="/usr/lib/firefox/firefox ")
+Oct  9 13:55:09 asus-switch dbus[1054]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.7" (uid=111 pid=1037 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.91" (uid=1000 pid=3334 comm="/usr/lib/firefox/firefox ")
+Oct  9 13:55:24 asus-switch dbus[1054]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.7" (uid=111 pid=1037 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.92" (uid=1000 pid=3982 comm="evince /home/alejandro/Documents/IEEE/courses/linu")
+Oct  9 13:55:24 asus-switch dbus[1054]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.7" (uid=111 pid=1037 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.92" (uid=1000 pid=3982 comm="evince /home/alejandro/Documents/IEEE/courses/linu")
+Oct  9 13:55:37 asus-switch pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct  9 13:55:37 asus-switch pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Oct  9 13:55:37 asus-switch pkexec[5318]: alejandro: Executing command [USER=root] [TTY=unknown] [CWD=/home/alejandro] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct  9 13:56:16 asus-switch systemd-logind[1026]: Removed session c1.
+Oct  9 13:56:16 asus-switch systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Oct  9 13:58:26 asus-switch dbus[1054]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.7" (uid=111 pid=1037 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.92" (uid=1000 pid=3982 comm="evince /home/alejandro/Documents/IEEE/courses/linu")
+Oct  9 13:59:15 asus-switch dbus[1054]: message repeated 3 times: [ [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.7" (uid=111 pid=1037 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.92" (uid=1000 pid=3982 comm="evince /home/alejandro/Documents/IEEE/courses/linu")]
+Oct  9 14:00:01 asus-switch CRON[8012]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  9 14:00:01 asus-switch CRON[8012]: pam_unix(cron:session): session closed for user root
+Oct  9 14:01:59 asus-switch dbus[1054]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.7" (uid=111 pid=1037 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.92" (uid=1000 pid=3982 comm="evince /home/alejandro/Documents/IEEE/courses/linu")
+Oct  9 14:01:59 asus-switch dbus[1054]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.7" (uid=111 pid=1037 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.92" (uid=1000 pid=3982 comm="evince /home/alejandro/Documents/IEEE/courses/linu")
+Oct  9 14:10:30 asus-switch dbus[1054]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.7" (uid=111 pid=1037 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.104" (uid=1000 pid=15403 comm="evince /home/alejandro/Documents/IEEE/courses/linu")
+Oct  9 14:10:30 asus-switch dbus[1054]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.7" (uid=111 pid=1037 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.104" (uid=1000 pid=15403 comm="evince /home/alejandro/Documents/IEEE/courses/linu")
+Oct  9 14:17:01 asus-switch CRON[19424]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  9 14:17:01 asus-switch CRON[19424]: pam_unix(cron:session): session closed for user root
+Oct  9 14:18:05 asus-switch polkitd(authority=local): Unregistered Authentication Agent for unix-session:c2 (system bus name :1.83, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Oct  9 14:18:06 asus-switch systemd-logind[1026]: System is powering down.
+Oct  9 21:23:07 asus-switch systemd-logind[1005]: New seat seat0.
+Oct  9 21:23:07 asus-switch systemd-logind[1005]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct  9 21:23:07 asus-switch systemd-logind[1005]: Watching system buttons on /dev/input/event0 (Power Button)
+Oct  9 21:23:07 asus-switch systemd-logind[1005]: Watching system buttons on /dev/input/event12 (Eee PC WMI hotkeys)
+Oct  9 21:23:09 asus-switch sshd[1204]: Server listening on 0.0.0.0 port 22.
+Oct  9 21:23:09 asus-switch sshd[1204]: Server listening on :: port 22.
+Oct  9 21:23:12 asus-switch lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Oct  9 21:23:12 asus-switch lightdm: PAM adding faulty module: pam_kwallet.so
+Oct  9 21:23:12 asus-switch lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Oct  9 21:23:12 asus-switch lightdm: PAM adding faulty module: pam_kwallet5.so
+Oct  9 21:23:12 asus-switch lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Oct  9 21:23:12 asus-switch systemd-logind[1005]: New session c1 of user lightdm.
+Oct  9 21:23:12 asus-switch systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Oct  9 21:23:13 asus-switch sshd[1204]: Received SIGHUP; restarting.
+Oct  9 21:23:13 asus-switch sshd[1204]: Server listening on 0.0.0.0 port 22.
+Oct  9 21:23:13 asus-switch sshd[1204]: Server listening on :: port 22.
+Oct  9 21:23:13 asus-switch sshd[1204]: Received SIGHUP; restarting.
+Oct  9 21:23:13 asus-switch sshd[1204]: Server listening on 0.0.0.0 port 22.
+Oct  9 21:23:13 asus-switch sshd[1204]: Server listening on :: port 22.
+Oct  9 21:23:15 asus-switch lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Oct  9 21:23:15 asus-switch lightdm: PAM adding faulty module: pam_kwallet.so
+Oct  9 21:23:15 asus-switch lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Oct  9 21:23:15 asus-switch lightdm: PAM adding faulty module: pam_kwallet5.so
+Oct  9 21:23:15 asus-switch lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "alejandro"
+Oct  9 21:24:28 asus-switch lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Oct  9 21:24:28 asus-switch lightdm: pam_unix(lightdm:session): session opened for user alejandro by (uid=0)
+Oct  9 21:24:28 asus-switch systemd-logind[1005]: New session c2 of user alejandro.
+Oct  9 21:24:28 asus-switch systemd: pam_unix(systemd-user:session): session opened for user alejandro by (uid=0)
+Oct  9 21:24:31 asus-switch gnome-keyring-daemon[4629]: The SSH agent was already initialized
+Oct  9 21:24:31 asus-switch gnome-keyring-daemon[4629]: The PKCS#11 component was already initialized
+Oct  9 21:24:31 asus-switch gnome-keyring-daemon[4629]: The Secret Service was already initialized
+Oct  9 21:24:35 asus-switch polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.86 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct  9 21:25:13 asus-switch systemd-logind[1005]: Removed session c1.
+Oct  9 21:25:13 asus-switch systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Oct  9 21:25:38 asus-switch pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct  9 21:25:38 asus-switch pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Oct  9 21:25:38 asus-switch pkexec[7901]: alejandro: Executing command [USER=root] [TTY=unknown] [CWD=/home/alejandro] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct  9 22:00:01 asus-switch CRON[8701]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  9 22:00:01 asus-switch CRON[8701]: pam_unix(cron:session): session closed for user root
+Oct  9 22:17:01 asus-switch CRON[26723]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  9 22:17:01 asus-switch CRON[26723]: pam_unix(cron:session): session closed for user root
+Oct  9 23:00:01 asus-switch CRON[18149]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  9 23:00:01 asus-switch CRON[18149]: pam_unix(cron:session): session closed for user root
+Oct  9 23:11:22 asus-switch compiz: gkr-pam: unlocked login keyring
+Oct  9 23:17:01 asus-switch CRON[7297]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  9 23:17:01 asus-switch CRON[7297]: pam_unix(cron:session): session closed for user root
+Oct 10 00:00:01 asus-switch CRON[16850]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 10 00:00:01 asus-switch CRON[16849]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 10 00:00:01 asus-switch CRON[16850]: pam_unix(cron:session): session closed for user root
+Oct 10 00:00:13 asus-switch CRON[16849]: pam_unix(cron:session): session closed for user root
+Oct 10 00:17:01 asus-switch CRON[3566]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 10 00:17:01 asus-switch CRON[3566]: pam_unix(cron:session): session closed for user root
+Oct 10 00:49:13 asus-switch smbd: pam_unix(samba:session): session closed for user nobody
+Oct 10 00:50:17 asus-switch polkitd(authority=local): Unregistered Authentication Agent for unix-session:c2 (system bus name :1.86, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Oct 10 00:50:23 asus-switch systemd-logind[1005]: Delay lock is active (UID 1000/alejandro, PID 4866/gnome-session-b) but inhibitor timeout is reached.
+Oct 10 00:50:23 asus-switch systemd-logind[1005]: System is powering down.
+Oct 10 00:50:23 asus-switch dbus[1034]: [system] Rejected send message, 3 matched rules; type="error", sender=":1.79" (uid=1000 pid=4976 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.2" (uid=0 pid=1001 comm="/usr/lib/bluetooth/bluetoothd ")
+Oct 10 00:50:23 asus-switch dbus[1034]: message repeated 3 times: [ [system] Rejected send message, 3 matched rules; type="error", sender=":1.79" (uid=1000 pid=4976 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.2" (uid=0 pid=1001 comm="/usr/lib/bluetooth/bluetoothd ")]
+Oct 10 09:16:38 asus-switch systemd-logind[973]: New seat seat0.
+Oct 10 09:16:38 asus-switch systemd-logind[973]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct 10 09:16:38 asus-switch systemd-logind[973]: Watching system buttons on /dev/input/event0 (Power Button)
+Oct 10 09:16:38 asus-switch systemd-logind[973]: Watching system buttons on /dev/input/event13 (Eee PC WMI hotkeys)
+Oct 10 09:16:39 asus-switch sshd[1148]: Server listening on 0.0.0.0 port 22.
+Oct 10 09:16:39 asus-switch sshd[1148]: Server listening on :: port 22.
+Oct 10 09:16:43 asus-switch lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Oct 10 09:16:43 asus-switch lightdm: PAM adding faulty module: pam_kwallet.so
+Oct 10 09:16:43 asus-switch lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Oct 10 09:16:43 asus-switch lightdm: PAM adding faulty module: pam_kwallet5.so
+Oct 10 09:16:43 asus-switch lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Oct 10 09:16:43 asus-switch systemd-logind[973]: New session c1 of user lightdm.
+Oct 10 09:16:43 asus-switch systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Oct 10 09:16:45 asus-switch lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Oct 10 09:16:45 asus-switch lightdm: PAM adding faulty module: pam_kwallet.so
+Oct 10 09:16:45 asus-switch lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Oct 10 09:16:45 asus-switch lightdm: PAM adding faulty module: pam_kwallet5.so
+Oct 10 09:16:45 asus-switch lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "alejandro"
+Oct 10 09:16:47 asus-switch sshd[1148]: Received SIGHUP; restarting.
+Oct 10 09:16:47 asus-switch sshd[1148]: Server listening on 0.0.0.0 port 22.
+Oct 10 09:16:47 asus-switch sshd[1148]: Server listening on :: port 22.
+Oct 10 09:16:47 asus-switch sshd[1148]: Received SIGHUP; restarting.
+Oct 10 09:16:47 asus-switch sshd[1148]: Server listening on 0.0.0.0 port 22.
+Oct 10 09:16:47 asus-switch sshd[1148]: Server listening on :: port 22.
+Oct 10 09:17:01 asus-switch CRON[3314]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 10 09:17:01 asus-switch CRON[3314]: pam_unix(cron:session): session closed for user root
+Oct 10 09:18:27 asus-switch lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Oct 10 09:18:27 asus-switch lightdm: pam_unix(lightdm:session): session opened for user alejandro by (uid=0)
+Oct 10 09:18:27 asus-switch systemd-logind[973]: New session c2 of user alejandro.
+Oct 10 09:18:27 asus-switch systemd: pam_unix(systemd-user:session): session opened for user alejandro by (uid=0)
+Oct 10 09:18:30 asus-switch gnome-keyring-daemon[6020]: The SSH agent was already initialized
+Oct 10 09:18:30 asus-switch gnome-keyring-daemon[6020]: The PKCS#11 component was already initialized
+Oct 10 09:18:30 asus-switch gnome-keyring-daemon[6020]: The Secret Service was already initialized
+Oct 10 09:18:34 asus-switch polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.86 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 10 09:18:47 asus-switch systemd-logind[973]: Removed session c1.
+Oct 10 09:18:47 asus-switch systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Oct 10 09:19:37 asus-switch pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 10 09:19:37 asus-switch pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Oct 10 09:19:37 asus-switch pkexec[9200]: alejandro: Executing command [USER=root] [TTY=unknown] [CWD=/home/alejandro] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 10 09:22:35 asus-switch pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 10 09:22:35 asus-switch pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Oct 10 09:22:35 asus-switch pkexec[13356]: alejandro: Executing command [USER=root] [TTY=unknown] [CWD=/home/alejandro] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 10 09:23:47 asus-switch dbus[991]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.4" (uid=111 pid=970 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.125" (uid=1000 pid=13924 comm="evince /home/alejandro/UNI/q9/ADEI/teo/Session 5 -")
+Oct 10 09:23:47 asus-switch dbus[991]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.4" (uid=111 pid=970 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.125" (uid=1000 pid=13924 comm="evince /home/alejandro/UNI/q9/ADEI/teo/Session 5 -")
+Oct 10 09:28:28 asus-switch dbus[991]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.4" (uid=111 pid=970 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.125" (uid=1000 pid=13924 comm="evince /home/alejandro/UNI/q9/ADEI/teo/Session 5 -")
+Oct 10 09:28:28 asus-switch dbus[991]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.4" (uid=111 pid=970 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.125" (uid=1000 pid=13924 comm="evince /home/alejandro/UNI/q9/ADEI/teo/Session 5 -")
+Oct 10 09:32:43 asus-switch dbus[991]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.4" (uid=111 pid=970 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.129" (uid=1000 pid=19541 comm="evince /home/alejandro/UNI/q9/ADEI/teo/Session 4 -")
+Oct 10 09:32:43 asus-switch dbus[991]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.4" (uid=111 pid=970 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.129" (uid=1000 pid=19541 comm="evince /home/alejandro/UNI/q9/ADEI/teo/Session 4 -")
+Oct 10 09:33:10 asus-switch dbus[991]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.4" (uid=111 pid=970 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.129" (uid=1000 pid=19541 comm="evince /home/alejandro/UNI/q9/ADEI/teo/Session 4 -")
+Oct 10 09:33:10 asus-switch dbus[991]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.4" (uid=111 pid=970 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.129" (uid=1000 pid=19541 comm="evince /home/alejandro/UNI/q9/ADEI/teo/Session 4 -")
+Oct 10 09:44:25 asus-switch dbus[991]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.4" (uid=111 pid=970 comm="avahi-daemon: starting up ") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.129" (uid=1000 pid=19541 comm="evince /home/alejandro/UNI/q9/ADEI/teo/Session 4 -")
